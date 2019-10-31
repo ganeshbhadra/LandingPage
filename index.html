@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+	<html class="no-js">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Landing Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Ganesh Bhadra" />
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/superfish.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="css/cs-select.css">
+	<link rel="stylesheet" href="css/cs-skin-border.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+	var countDownDate = new Date("dec 5, 2019 15:37:25").getTime();
+	var x = setInterval(function() {
+	var now = new Date().getTime();
+	var distance = countDownDate - now;
+	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s Time Left";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+	</head>
+	<body>
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+	
+		<div class="fh5co-hero">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_.jpg);">
+				<div class="desc">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-5 col-md-5">
+								<div class="tabulation animate-box">
+
+								  <!-- Nav tabs -->
+								   <ul class="nav nav-tabs" role="tablist">
+								      <li role="presentation" class="active">
+								      	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Online & Free | For Enquiries : 1800-123-1260</a>
+								      </li>
+								   </ul>
+
+								   <!-- Tab panes -->
+									<div class="tab-content">
+									 <div role="tabpanel" class="tab-pane active" id="flights">
+										<div class="row">
+											
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">First Name:</label>
+													<input type="text" class="form-control" id="from-place" placeholder="Mark "/>
+												</section>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Last Name:</label>
+													<input type="text" class="form-control" id="from-place" placeholder="Henry "/>
+												</section>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Email:</label>
+													<input type="text" class="form-control" id="from-place" placeholder=" xxxxx@mail.com"/>
+												</section>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Phone:</label>
+													<input type="text" class="form-control" id="from-place" placeholder="xxxxxxxxx0000"/>
+												</section>
+											</div>
+
+											<div class="col-xs-12">
+												<input type="submit" class="btn btn-primary btn-block" value="Save my Post">
+											</div>
+										</div>
+									 </div>
+									</div>
+								</div>
+							</div>
+
+							<div class="desc2 animate-box">
+								<div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
+									
+									<p><strong>6 MONTH CERTIFICATE PROGRAM
+									IN BIG DATA & DATA SCIENCE</strong>
+									</p>
+									<p id="demo"></p>
+									<h2><img src="images/hyphen.png" alt="" class="call-logo img-responsive"></h2>
+									<h3>Interactive session discussing course structure, curriculum and timings about upcoming batches.</h3>
+									<br>
+									<p><img src="images/tm-logo.png" alt="" class="call-logo img-responsive"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+
+		<section id="details-list" style="background-color: black">
+            <div class="container">
+              <div class="section-heading">
+              	<br><br>
+                    <h1 class="orange-text upper-text text-center light-text roboto" style="color: #fff"><strong>Speakers</strong></h1>
+                </div>
+                <div class="details">
+  
+                    <div class="detail">
+  						<img src="images/1a.png" alt="" class="img-responsive center-block" style=""><br>
+                        <h4 class="white-text text-center upper-text roboto light-text" style="color: #fff">Manvender Singh</h4>
+						<p style=" color:#fff;" class="raleway text-center"> Founder &amp; CEO UpX Academy MBA, ISB</p>
+                    </div>
+					
+                    <div class="detail">
+  						<img src="images/1b.png" alt="" class="img-responsive center-block""=""><br>
+                        <h4 class="white-text text-center upper-text roboto light-text" style="color: #fff">Suchit Majumdar</h4>
+						<p style=" color:#fff;" class="raleway text-center">IoT &amp; Smart City consultant with AP Government<br> MBA, ISB</p>
+                    </div>
+					
+					<div class="detail">
+ 						<img src="images/1c.png" alt="" class="img-responsive center-block""=""><br>
+						<h4 class="white-text text-center upper-text roboto light-text" style="color: #fff">Arun K</h4>
+                        <p style=" color:#fff;" class="raleway text-center">Healthcare Analytics Expert University of Cologne</p>                  
+					</div>
+                </div>
+            </div>
+        </section>	
+
+        <div id="fh5co-tours" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3><strong>World Class faculty</strong></h3>
+					</div>
+				</div>
+			</div>	
+		</div>		
+
+		<div id="fh5co-features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 animate-box">
+						<div class="feature-left">
+							<span class="icon">
+							</span>
+							<div class="feature-copy">
+								<h1>Principal Data Scientist</h1>
+								<img src="images/hp.png" alt="" class="call-logo img-responsive">
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-4 animate-box">
+						<div class="feature-left">
+							<span class="icon">
+							</span>
+							<div class="feature-copy">
+								<h1>Big Data Trainer - Flipkart</h1>
+								<p><img src="images/flipkart.png" alt="" class="call-logo img-responsive"></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 animate-box">
+						<div class="feature-left">
+							<span class="icon">
+							</span>
+							<div class="feature-copy">
+								<h1>Ex Head,Big Data Analytics</h1>
+								<p><img src="images/jio.png" alt="" class="call-logo img-responsive"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 animate-box">
+
+						<div class="feature-left">
+							<span class="icon">
+							</span>
+							<div class="feature-copy">
+								<h1>Head of Analytics Kabbage Inc</h1>
+								<p><img src="images/kabbage.png" alt="" class="call-logo img-responsive"></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 animate-box">
+						<div class="feature-left">
+							<span class="icon">
+							</span>
+							<div class="feature-copy">
+								<h1>Big Data Consultant & Trainer,California</h1>
+								<p><img src="images/google.png" alt="" class="call-logo img-responsive"></p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 animate-box">
+						<div class="feature-left">
+							<span class="icon">
+							</span>
+							<div class="feature-copy">
+								<h1>Head of the Google Projects - IBM</h1>
+								<p><img src="images/ibm.png" alt="" class="call-logo img-responsive"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		<div id="fh5co-destination">
+			<div class="tour-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<ul id="fh5co-destination-list" class="animate-box">
+							<li class="one-forth text-center" style="background-image: url(images/place-1.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										
+										<h2>Online, live & Interactive sessions with use cases, theory and projects</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-1.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										
+										<h2>Hands-on experience with real world datasets from BFSI, Retail, Healthcare, Entertainment & Sports</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-1.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										
+										<h2>Best in class curriculum designed by Industry experts with pre-reads & installation guides</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-1.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+
+										<h2>Industry recognised certification by TECH MAHINDRA</h2>
+									</div>
+								</a>
+							</li>
+
+							<li class="one-forth text-center" style="background-image: url(images/99.png); ">
+								<a href="#">
+									<div class="case-studies-summary">
+
+										<h2><p><img src="images/11.png" alt="" class="call-logo img-responsive"></p></h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-half text-center">
+								<div class="title-bg">
+									<div class="case-studies-summary">
+										<h2>COURSE HIGHLIGHTS</h2>
+										<span><a href="#">View All Destinations</a></span>
+									</div>
+								</div>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/99.png); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2><p><img src="images/12.png" alt="" class="call-logo img-responsive"></p></h2>
+									</div>
+								</a>
+							</li>
+						</ul>		
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-blog-section" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3><strong>BIG DATA LEARNING PATH</strong></h3>
+					</div>
+				</div>
+
+				<div class="row row-bottom-padded-md">
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h1><img src="images/23.png" style="display: inline;" alt="" class="img-responsive"></h1>
+							<h3><strong>BIG DATA LEARNING PATH</strong> </h3>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h1>
+								<div class="stars" style="display: inline;">
+                                  <img src="images/yellow-star.png" style="display: inline;" alt="" class="img-responsive">
+                              </div>
+                            </h1>
+							<h3><strong>6 WEEKS</strong></h3>
+							<ul>
+								<li><a href="#"><strong>Hadoop <br>( 6 WEEKS )</strong></a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h1>
+								<div class="stars" style="display: inline;">
+                                  <img src="images/yellow-star.png" style="display: inline;" alt="" class="img-responsive">
+                                  <img src="images/green-star.png" style="display: inline;" alt="" class="img-responsive">
+                              </div>
+                            </h1>
+							<h3><strong>9 WEEKS</strong></h3>
+							<ul>
+								<li><a href="#"><strong>Hadoop <br>( 6 WEEKS )</strong></a></li><br>
+								<li><a href="#"><strong>MongoDB, HBase Sqoop & Flumebr <br> ( 3 weeks )</strong></a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h1>
+								<div class="stars" style="display: inline;">
+                                  <img src="images/yellow-star.png" style="display: inline;" alt="" class="img-responsive">
+                                  <img src="images/green-star.png" style="display: inline;" alt="" class="img-responsive">
+                                  <img src="images/blue-star.png" style="display: inline;" alt="" class="img-responsive">
+                              </div>
+                            </h1>
+							<h3><strong>14 WEEKS</strong></h3>
+							<ul>
+								<li><a href="#"><strong>Hadoop <br>( 6 WEEKS )</strong></a></li><br>
+								<li><a href="#"><strong>MongoDB, HBase Sqoop & Flumebr <br> ( 3 weeks )</strong></a></li><br>
+								<li><a href="#"><strong>Spark <br> ( 5 weeks )</strong></a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h1>
+								<div class="stars" style="display: inline;">
+                                  <img src="images/yellow-star.png" style="display: inline;" alt="" class="img-responsive">
+                                  <img src="images/green-star.png" style="display: inline;" alt="" class="img-responsive">
+                                  <img src="images/blue-star.png" style="display: inline;" alt="" class="img-responsive">
+                                  <img src="images/oramge-star.png" style="display: inline;" alt="" class="img-responsive">
+                              </div>
+                            </h1>
+							<h3><strong>25 WEEKS</strong></h3>
+							<ul>
+								<li><a href="#"><strong>Hadoop <br>( 6 WEEKS )</strong></a></li><br>
+								<li><a href="#"><strong>MongoDB, HBase Sqoop & Flumebr <br> ( 3 weeks )</strong></a></li><br>
+								<li><a href="#"><strong>Spark <br> ( 5 weeks )</strong></a></li><br>
+								<li><a href="#"><strong>Machine Learning with Spark <br>( 6 WEEKS )</strong></a></li><br>
+								<li><a href="#"><strong>Big Data Integration & Processing <br>( 5 WEEKS )</strong></a></li>
+							</ul>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div id="fh5co-blog-section" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3><strong>DATA SCIENCE LEARNING PATH</strong></h3>
+					</div>
+				</div>
+
+				<div class="row row-bottom-padded-md">
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h1><img src="images/22.png" style="display: inline;" alt="" class="img-responsive"></h1>
+							<h3><strong>DATA SCIENCE LEARNING PATH</strong> </h3>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h1>
+								<div class="stars" style="display: inline;">
+                                  <img src="images/yellow-star.png" style="display: inline;" alt="" class="img-responsive">
+                              </div>
+                            </h1>
+							<h3><strong>5 WEEKS</strong></h3>
+							<ul>
+								<li><a href="#"><strong>Data analytics with Python <br>( 5 WEEKS )</strong></a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h1>
+								<div class="stars" style="display: inline;">
+                                  <img src="images/yellow-star.png" style="display: inline;" alt="" class="img-responsive">
+                                  <img src="images/green-star.png" style="display: inline;" alt="" class="img-responsive">
+                              </div>
+                            </h1>
+							<h3><strong>9 WEEKS</strong></h3>
+							<ul>
+								<li><a href="#"><strong>Data analytics with Python <br>( 5 WEEKS )</strong></a></li><br>
+								<li><a href="#"><strong>Tableau <br> ( 4 weeks )</strong></a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h1>
+								<div class="stars" style="display: inline;">
+                                  <img src="images/yellow-star.png" style="display: inline;" alt="" class="img-responsive">
+                                  <img src="images/green-star.png" style="display: inline;" alt="" class="img-responsive">
+                                  <img src="images/blue-star.png" style="display: inline;" alt="" class="img-responsive">
+                              </div>
+                            </h1>
+							<h3><strong>14 WEEKS</strong></h3>
+							<ul>
+								<li><a href="#"><strong>Data analytics with Python <br>( 5 WEEKS )</strong></a></li><br>
+								<li><a href="#"><strong>Tableau <br> ( 4 weeks )</strong></a></li><br>
+								<li><a href="#"><strong>Machine Learning <br> ( 5 weeks )</strong></a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h1>
+								<div class="stars" style="display: inline;">
+                                  <img src="images/yellow-star.png" style="display: inline;" alt="" class="img-responsive">
+                                  <img src="images/green-star.png" style="display: inline;" alt="" class="img-responsive">
+                                  <img src="images/blue-star.png" style="display: inline;" alt="" class="img-responsive">
+                                  <img src="images/oramge-star.png" style="display: inline;" alt="" class="img-responsive">
+                              </div>
+                            </h1>
+							<h3><strong>25 WEEKS</strong></h3>
+							<ul>
+								<li><a href="#"><strong>Data analytics with Python <br>( 5 WEEKS )</strong></a></li><br>
+								<li><a href="#"><strong>Tableau <br> ( 4 weeks )</strong></a></li><br>
+								<li><a href="#"><strong>Machine Learning <br> ( 5 weeks )</strong></a></li><br>
+								<li><a href="#"><strong>Advanced Machine Learning <br>( 6 WEEKS )</strong></a></li><br>
+								<li><a href="#"><strong>Deep Learning for NLP<br>( 5 WEEKS )</strong></a></li>
+							</ul>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div id="fh5co-testimonial" style="background-image:url(images/img_bg_1.jpg);">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>UpX Student Speaks</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box-testimony animate-box">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+							<p>&ldquo;UpX Academy has understood the Big Data Analytics space fairly well and are doinga brilliant job in educating young leaders and professionals who look forward to join this sector&rdquo;</p>
+						</blockquote>
+						<p class="author"> - Jai Kumar<span class="subtext">Director BI, NTT DATA</span></p>
+					</div>
+					
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony animate-box">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+							<p>&ldquo;UpX Academy has excellent faculty on-board that brings in industry perspective in their programs. The five week training they conducted has helped my team adopt the latest Big Data Analytics practices.&rdquo;</p>
+						</blockquote>
+						<p class="author">- Puneet Sakhuja<span class="subtext">BI, Analytics - Practice leader, Tech Mahindra</span></p>
+					</div>	
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony animate-box">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+							<p>&ldquo;Initially, we were a bit apprehensive about online trainings. But the support and trainings were organized impressed my team. The pace of the training was perfect and suitable for even beginners in this area..&rdquo;</p>
+						</blockquote>
+						<p class="author">- Siddharth Bhattacharya<span class="subtext">AVP Analytics, Barclays </span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>About Upx </h3>
+							<p>In today’s digital age,<br> data has the potential to transform businesses through insights and analytics. However, this power still awaits to be fully harnessed.</p>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Academy</h3>
+							<p> we recognize this challenge and are therefore committed to empower professionals through transformational courses in Big Data and Data Science</p>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Our Courses</h3>
+							<ul>
+								<li><a href="#">Big Data</a></li>
+								<li><a href="#">Data science</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Big Data</h3>
+							<ul>
+								<li><a href="#">Hadoop</a></li>
+								<li><a href="#">Apache Shark</a></li>
+								<li><a href="#">Mongo DB</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Data science</h3>
+							<ul>
+								<li><a href="#">Data Analytics</a></li>
+								<li><a href="#">Machine Learning</a></li>
+								<li><a href="#">tablue</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<p class="fh5co-social-icons">
+								<a href="#"><i class="icon-twitter2"></i></a>
+								<a href="#"><i class="icon-facebook2"></i></a>
+								<a href="#"><i class="icon-instagram"></i></a>
+								<a href="#"><i class="icon-dribbble2"></i></a>
+								<a href="#"><i class="icon-youtube"></i></a>
+							</p>
+							<p>Copyright 2017 <a href="#">#</a>. All Rights Reserved. <br>www.upxacademy.com<span> </span><a href="http://freehtml5.co/" target="_blank">Email : </a> Info@upxacademy.com <a href="https://unsplash.com/" target="_blank"></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/sticky.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/selectFx.js"></script>
+	<script src="js/main.js"></script>
+	</body>
+</html>
+
